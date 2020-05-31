@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[method a executed]]>
+    </line>
+    <line>
+      <![CDATA[method b executed]]>
+    </line>
+    <line>
+      <![CDATA[method c executed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="78" started-at="2020-05-31T18:45:05Z" finished-at="2020-05-31T18:45:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="78" started-at="2020-05-31T18:45:05Z" finished-at="2020-05-31T18:45:05Z">
+      <class name="com.scripts.MavenGitHub.TestSample">
+        <test-method status="PASS" signature="a()[pri:0, instance:com.scripts.MavenGitHub.TestSample@146ba0ac]" name="a" duration-ms="16" started-at="2020-05-31T18:45:05Z" finished-at="2020-05-31T18:45:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[method a executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="b()[pri:0, instance:com.scripts.MavenGitHub.TestSample@146ba0ac]" name="b" duration-ms="3" started-at="2020-05-31T18:45:05Z" finished-at="2020-05-31T18:45:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[method b executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method status="PASS" signature="c()[pri:0, instance:com.scripts.MavenGitHub.TestSample@146ba0ac]" name="c" duration-ms="3" started-at="2020-05-31T18:45:05Z" finished-at="2020-05-31T18:45:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[method c executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- c -->
+      </class> <!-- com.scripts.MavenGitHub.TestSample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
